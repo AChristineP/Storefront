@@ -1,0 +1,168 @@
+/*
+Theme Name: Storefront Child
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Automattic
+Author URI: https://woocommerce.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 4.1.3.1665592846
+Updated: 2022-10-12 16:40:46
+
+*/
+
+@import url('http://fonts.cdnfonts.com/css/rock-salt');
+@import "bootstrap/scss/bootstrap";
+
+a:focus,
+.focus a {
+outline: none !important;
+}´
+
+main {
+    height: auto;
+}
+
+body, .secondary-navigation a {
+    background-color: #fffef4;
+    color: #732aa1;
+}
+
+input [type=text], input[type=number], input[type=email], input[type=tel], input[type=url], input[type=password], input[type=search], textarea, .input-text
+{
+    background-color: #fefffa;
+}
+
+#masthead {
+   background-color: #e4c1f9;
+}
+
+.site-header {
+    padding-top: 0;
+    }
+
+.woocommerce-info {
+    background-color: #a9def9;
+}
+
+
+
+
+a.button {
+    background-color: #a9def9;
+}
+
+.btn {
+    background-color: #a9def9;
+}
+
+
+#colophon {
+    background-color: #d0f4de;
+}
+
+.site-branding .site-title a {
+
+    font-family: 'Rock Salt', sans-serif;
+    color: #fcf6bd;
+    font-size: larger;
+    text-shadow: 3px 3px #6b7b7f74;
+}
+
+p.site-description {
+    font-family: 'Rock Salt', sans-serif;
+    color: #a9def9;   
+        text-shadow: 3px 3px #6b7b7f74;
+}
+
+h2.woocommerce-loop-product_title {
+    text-shadow:none;
+}
+
+h1, h2 {
+
+    font-family: 'Rock Salt', sans-serif;
+    color: #e4c1f9;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: 3px 3px #6b7b7f1f;
+}
+
+#hero h1 {
+    text-shadow: 3px 3px #41494b7c;
+}
+
+.search-field {
+    background-color: #fcf6bd;
+}
+
+body, .secondary-navigation a {
+    color: #6a5a74;
+}
+
+p.site-description, .site-header, .storefront-handheld-footer-bar {
+    color: #ffffff;
+}
+
+#hero {
+    background-image: url(img/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    margin:0%;
+    text-align: center;
+    justify-content: center;
+    margin-top: -10%;
+    padding-top: 10%;
+}
+
+.woocommerce-checkout .col-1, .woocommerce-checkout .col-2 {
+    max-width: 100%;
+}
+.woocommerce-checkout .form-row {
+    display: block;
+}
+
+p.lead {
+
+    color:#a9def9;
+}
+
+.col-md-4 {
+    padding: 3rem;
+    background-color: #fcf6bd6c;
+    z-index: -999;
+    
+}
+
+#col-pic {
+    background-image: url(img/BLUEPINK-INLINE_ADS_IG-SQUARE_12_1445x.webp);
+    background-position: 40%;
+    filter: brightness(1.1);
+    filter: saturate(-10);
+    filter: opacity(50%);
+}
+
+#free {
+    background-color: #a9def9;
+    margin-bottom: 0%;
+padding: 1rem;
+height: auto;
+    text-align: center;
+    color: #fefffa;
+    justify-content: center;
+}
+
+#footerstyle {
+    padding-top: 2rem;
+    background-color: #d0f4de
+}
+
+p.lead {
+    color: #ffffff;
+    font-weight: bold;
+
+}
